@@ -1,0 +1,80 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(alarm-clock-gfa6b9da8f_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: #000;
+    }
+nav .logo{
+color: orangered;
+margin-top: 10px;
+font-weight: bolder;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+margin: 1rem;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 2px;
+    font-size: 1.3rem;
+}
+nav ul li a:visited{
+    color: #fff;
+}
+nav ul li a:hover{
+    color: yellow;
+    border-bottom: 1px solid white;
+}
+.showcase{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.showcase h1{
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+.para{
+    font-size: 2rem;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btns a{
+    padding: 10PX;
+    background-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    transition: all 1s;
+}
+.btns a:hover{
+    background-color: #333;
+    color: #fff;
+}
