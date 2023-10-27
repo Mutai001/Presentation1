@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 /* Reset */
 *{
     margin: 0;
@@ -10,6 +12,8 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(alarm-clock-gfa6b9da8f_1280.jpg);
     background-position: center;
     background-size: cover;
+
+    font-family: 'Roboto', sans-serif;
 }
 nav{
     display: flex;
@@ -42,7 +46,7 @@ nav ul li a:visited{
 }
 nav ul li a:hover{
     color: yellow;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 .showcase{
     position: absolute;
@@ -71,10 +75,21 @@ nav ul li a:hover{
     border-radius: 10px;
     text-decoration: none;
     font-size: 1.3rem;
-    color: black;
+    color: #000;
     transition: all 1s;
 }
 .btns a:hover{
     background-color: #333;
     color: #fff;
+}
+
+.btns .signin{
+    background-color: yellowgreen;
+    color: #000;
+}
+
+
+i{
+    color: #fff;
+    padding-right: 10px;
 }
