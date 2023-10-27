@@ -6,15 +6,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    width: 100%;
+}
 body{
     background-color: #333;
     color: #fff;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(alarm-clock-gfa6b9da8f_1280.jpg);
     background-position: center;
     background-size: cover;
-
-    font-family: 'Roboto', sans-serif;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -93,3 +102,73 @@ i{
     color: #fff;
     padding-right: 10px;
 }
+
+
+/* ABOUT PAGE */
+
+.about-section{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    margin-bottom: 70px;
+}
+
+#about h1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+
+}
+
+.about-img{
+    width: 2000px;
+}
+
+.about-img img{
+    border-radius: 20px;
+
+}
+
+/* Services */
+.services-section{
+    width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+    background-color: #444;
+    /* color: #000; */
+}
+
+.services-section h1{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.service{
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 300px;
+
+    
+}
+
+.service h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
